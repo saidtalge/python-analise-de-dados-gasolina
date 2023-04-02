@@ -13,7 +13,7 @@ def download_file(url):
 def main():
     """Main function."""
     url_base = "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca"
-    for i in range(2004, 2022):
+    for i in range(2020, 2022):
         url1 = f"{url_base}-{i}-01.csv"
         url2 = f"{url_base}-{i}-02.csv"
         file1 = download_file(url1)

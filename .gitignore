@@ -1,3 +1,4 @@
 *.csv
 choropleth-map
 *.zip
+.venv
